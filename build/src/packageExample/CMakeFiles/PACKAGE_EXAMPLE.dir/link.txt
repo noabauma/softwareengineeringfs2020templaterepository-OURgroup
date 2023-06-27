@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPACKAGE_EXAMPLE.a  CMakeFiles/PACKAGE_EXAMPLE.dir/dummyClass.cc.o
+/usr/bin/ranlib libPACKAGE_EXAMPLE.a

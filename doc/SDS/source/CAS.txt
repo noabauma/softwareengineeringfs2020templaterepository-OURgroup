@@ -1,0 +1,35 @@
+@startuml
+
+package CAS {
+  class Algebra
+  class Storage
+  class Constant
+  class Help
+}
+
+Algebra : +sin(double): double
+Algebra : +cos(double): double
+Algebra : +tan(double): double
+Algebra : +exp(double): double
+Algebra : +ln(double): double
+Algebra : +pow(double, int): double
+Algebra : +exit(): void
+
+Storage : -variables: map<char, double>
+Storage : -max_variables: int{max_variables >= 20 && max_variables <= 26}
+Storage : -current_variables: int{current_variables >= 0 && current_variables <= max_variables}
+Storage : +save(char, double): int
+Storage : +get(char): double
+Storage : +print_all(): void
+Storage : +delete(char): int
+Storage : +deleteAll(): void
+Storage : +saveToCSV(string): int
+Storage : +loadFromCSV(string): int
+
+Constant : +pi(): double
+Constant : +e(): double
+
+Help : -subjects: map<key, string>
+Help : +help(key): string
+
+@enduml

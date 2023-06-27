@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libPRACTICAL_CPP_SOCKETS.a"
+)

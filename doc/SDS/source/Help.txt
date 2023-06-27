@@ -1,0 +1,4 @@
+@startuml
+Help : -subjects: map<key, string>
+Help : +help(key): string
+@enduml

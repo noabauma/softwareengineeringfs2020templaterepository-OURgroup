@@ -1,0 +1,23 @@
+@startuml
+participant User
+participant Console
+participant Storage
+
+Console->Console: "Enter mathematical expression: "
+User->Console: "a = 2.5"
+Console->Storage: save(a, 2.5)
+User->Console: "b = 3.0"
+Console->Storage: save(b, 3)
+User->Console:	"c = a*b"
+Console<-Storage: get(a)
+Console<-Storage: get(b)
+Console->Console: * calculates 2.5*3 *
+Console->Storage: save(c, 7.5)
+Console->Console: "Enter mathematical expression: "
+User->Console: "exit"
+Console->Console: "Do you want the variables as CSV-file?"
+User->Console: "yes"
+Console<-Storage: saveToCSV("variable.csv")
+Console->Console: "Enter mathematical expression: "
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+Algebra : +sin(double): double
+Algebra : +cos(double): double
+Algebra : +tan(double): double
+Algebra : +exp(double): double
+Algebra : +ln(double): double
+Algebra : +pow(double, int): double
+Algebra : +exit(): void
+
+@enduml

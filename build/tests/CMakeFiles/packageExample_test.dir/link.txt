@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -pthread   CMakeFiles/packageExample_test.dir/packageExample_test.cc.o  -o packageExample_test extern/googletest/googlemock/gtest/libgtest.a extern/googletest/googlemock/libgmock.a extern/googletest/googlemock/gtest/libgtest_main.a ../src/packageExample/libPACKAGE_EXAMPLE.a extern/googletest/googlemock/gtest/libgtest.a -pthread 

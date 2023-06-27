@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/packageExample/dummyClass.h
+
+/mnt/c/softwareengineeringfs2020templaterepository/src/packageExample/dummyClass.cc
+packageExample/dummyClass.h
+-
+

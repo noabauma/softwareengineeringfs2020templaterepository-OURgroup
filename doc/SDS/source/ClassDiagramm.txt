@@ -1,0 +1,7 @@
+@startuml
+skinparam classAttributeIconSize 0
+Parser *-- "0..1" Algebra
+Parser *-- "0..1" Storage
+Parser *-- "0..1" Constant
+Parser *-- "0..1" Help
+@enduml

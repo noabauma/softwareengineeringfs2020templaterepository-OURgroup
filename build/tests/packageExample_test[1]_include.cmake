@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/softwareengineeringfs2020templaterepository/build/tests/packageExample_test[1]_tests.cmake")
+  include("/mnt/c/softwareengineeringfs2020templaterepository/build/tests/packageExample_test[1]_tests.cmake")
+else()
+  add_test(packageExample_test_NOT_BUILT packageExample_test_NOT_BUILT)
+endif()

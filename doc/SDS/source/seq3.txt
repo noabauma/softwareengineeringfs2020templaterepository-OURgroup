@@ -1,0 +1,14 @@
+@startuml
+participant User
+participant Console
+participant Constant
+
+Console->Console: "Enter mathematical expression: "
+User->Console: "sin(PI)"
+Console<-Constant: constant.pi()
+Console->Console: *sin(3.141...)*
+Console->Console: "0.0"
+Console->Console: "Enter mathematical expression: "
+User->Console: "exit"
+
+@enduml

@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libPACKAGE_EXAMPLE.a"
+)

@@ -1,0 +1,21 @@
+{
+    "OutputFile": "./state.out",
+    "HistoryFile": "./history.out",
+    "HealthMonitorInputPort": 8005,
+    "HealthMonitorOutputPort": 8002,
+    "HealthMonitorHost": "localhost",
+    "SimulatorHost": "localhost",
+    "Sensors": [
+        {"deviceId": 1, "deviceDescription": "Heartrate", "outputType": "float","range": [50.0,80.0], "timeInterval": 1},
+        {"deviceId": 1, "deviceDescription": "Bloodsystolic", "outputType": "float","range": [50.0,80.0], "timeInterval": 1},
+        {"deviceId": 1, "deviceDescription": "Diastolic", "outputType": "int",  "range": [0,30], "timeInterval": 1},
+        {"deviceId": 1, "deviceDescription": "Bodytemperature", "outputType": "float",  "range": [30,42], "timeInterval": 1},
+        {"deviceId": 1, "deviceDescription": "Roomtemperature", "outputType": "int",  "range": [0,30], "timeInterval": 1},
+        {"deviceId": 1, "deviceDescription": "Sleepingstate", "outputType": "int",  "range": [0,1], "timeInterval": 1},
+        {"deviceId": 1, "deviceDescription": "Tension", "outputType": "float",  "range": [0.0, 100.0], "timeInterval": 1},
+        {"deviceId": 1, "deviceDescription": "Blacklist", "outputType": "int",  "range": [0, 1], "timeInterval": 1},
+         
+    ],
+    "Actuators": [],
+    "PatientData":[]
+}

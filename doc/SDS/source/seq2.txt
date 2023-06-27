@@ -1,0 +1,11 @@
+@startuml
+participant User
+participant Console
+
+Console->Console: "Enter mathematical expression: "
+User->Console: "-4*(5 - 2/(3 * 2 - 3.3))"
+Console->Console: "-1.7037037037..."
+Console->Console: "Enter mathematical expression: "
+User->Console: "exit"
+
+@Console

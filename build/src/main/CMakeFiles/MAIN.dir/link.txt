@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -pthread   CMakeFiles/MAIN.dir/main.cc.o CMakeFiles/MAIN.dir/server.cpp.o CMakeFiles/MAIN.dir/jsonxx.cc.o CMakeFiles/MAIN.dir/hospital.cpp.o CMakeFiles/MAIN.dir/parser.cpp.o  -o MAIN ../PracticalSocket/libPRACTICAL_CPP_SOCKETS.a 

@@ -1,0 +1,20 @@
+@startuml
+participant User
+participant Console
+participant Storage
+
+User -> Console: starts
+
+Console -> Console: "Enter mathematical expression: "
+
+User -> Console: "x = ln(0)"
+
+Console -> Console: "ERROR! cannot compute ln(0)!\n No operations were performed."
+
+User -> Console: "x = ln(1)"
+
+Console -> Console: * calculate x = ln(1) *
+
+Console -> Storage: save(x, 0)
+
+@enduml
